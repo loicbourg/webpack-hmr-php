@@ -1,0 +1,18 @@
+{
+  "name": "hmr-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server --content-base=www --hot --inline --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
